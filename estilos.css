@@ -1,0 +1,89 @@
+body {background-color: beige}
+h1 {
+  color: gray;
+  font-size: 50px;
+    }
+h2 {
+  color: gray;
+  }
+  h3 {
+    color: gray;
+    }
+p { color: gray;
+    font-size: 20px;
+
+  }
+
+article[class^="caja"]{
+  margin-bottom: 10px
+  border: 10px ;
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+article[class^="caja5"]{
+  border: 10px ;
+  display: inline-block;
+  height: 60px;
+  width: 400px;
+  text-align: center;
+}
+article[class^="cuerpo"]{
+  margin-bottom: 10%;
+  border: 10px ;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  text-align: left;
+  }
+article[class^="imagen"]{
+  border: 10px ;
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+}
+article[class^="centrado"]{
+    border: 10px ;
+    display: inline-block;
+    height: 200px;
+    width: 1000px;
+    text-align: center;
+
+}
+article[class^="varios"]{
+  margin-bottom: 10px
+  border: 10px ;
+  display: inline-block;
+  height: 160px;
+  width: 400px;
+  text-align: center;
+}
+article[class^="module-hole"]{
+  margin-bottom: 10px
+  border: 10px ;
+  display: inline-block;
+  height: 420px;
+  width: 420px;
+  text-align: center;
+
+}
+article[class^="module-form"]{
+  margin-bottom: 10px
+  border: 10px ;
+  display: inline-block;
+  height: 50px;
+  width: 420px;
+  text-align: left;
+
+}
+
+article[class^="footer"]{
+  border: 10px ;
+  display: inline-block;
+  height: 500px;
+  width: 100px;
+  text-align: left;
+  margin-left: auto;
+  margin-top: 8px;
+}
